@@ -11,7 +11,7 @@
 using namespace std;
 
 
-/*Bartosz Starkowski 287665*/
+
 template <typename T>
 void merge_sort_1(T arr[], T temp[], int lewy, int srodek, int prawy) {
     int i = lewy, j = srodek + 1, k = lewy;
@@ -27,17 +27,7 @@ void merge_sort_1(T arr[], T temp[], int lewy, int srodek, int prawy) {
 }
 
 
-// template <typename T>
-// void merge_sort_2(T arr[], int lewy, int prawy) {
-//     if(lewy<prawy) {
-//         int srodek=lewy+(prawy-lewy)/2;
-//
-//         merge_sort_2(arr,lewy,srodek);
-//         merge_sort_2(arr,srodek+1,prawy);
-//
-//         merge_sort_1(arr,lewy,srodek,prawy);
-//     }
-// }
+
 template <typename T>
 void merge_sort_2(T arr[], T temp[], int lewy, int prawy) {
     if(lewy < prawy) {
