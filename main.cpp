@@ -260,47 +260,4 @@ int main() {
     return 0;
 }
 
-// int main() {
-//     std::cout << "Hello, World!" << std::endl;
-//     int dane[]={45,21,777,3,7,321,67,433,7777,5};
-//     int n=sizeof(dane)/sizeof(dane[0]);
-//
-//     merge_sort_2(dane,0,n-1);
-//     std::cout << "Posortowana tablica: ";
-//     for(int i=0; i<n; i++) std::cout << dane[i] << " ";
-//     cout<<"\n";
-//     int dane2[]={4,534,2,567,32,543,7895,33,25,56,7832};
-//     int n2=sizeof(dane2)/sizeof(dane2[0]);
-//     quick_sort(dane2,0,n2-1);
-//     cout<<"Oto posortowana tablica za pomoca quick sort:\n";
-//     for(int i=0; i<n2; i++) std::cout << dane2[i] << " ";
-//     cout<<"\n";
-//     int dane3[]={5,6,2,345,1,5674,432,4357,32,33,44,11};
-//     int n3=sizeof(dane3)/sizeof(dane3[0]);
-//     introsort2(dane3,n3);
-//     cout<<"po introspekt: \n";
-//     for(int i=0; i<n3; i++) std::cout << dane3[i] << " ";
-//     cout<<"\n";
-//     int male[10] = {9, 2, 7, 1, 5, 4, 8, 3, 6, 0};
-//     introsort2(male, 10);
-//     for(int x : male) std::cout << x << " ";
-//     cout<<"\n";
-//     srand(time(NULL)); // Inicjalizacja ziarna czasu
-//     int tab[100];
-//     for(int i = 0; i < 100; i++) {
-//         tab[i] = rand() % 1000; // Liczby od 0 do 999
-//         cout << tab[i] << " ";
-//     }
-//     cout<<"\n";
-//     cout<<"po sortowaniu:\n";
-//     introsort2(tab, 100);
-//     for(int x : tab) std::cout << x << " ";
-//     if (std::is_sorted(tab, tab + 100)) {
-//         cout << "\n\nSukces: Tablica jest poprawnie posortowana!";
-//     } else {
-//         cout << "\n\nBlad: Tablica NIE jest posortowana.";
-//     }
-//
-//     return 0;
-//
-// }
+
